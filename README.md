@@ -1,10 +1,8 @@
 # canada-boundaries [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url]
 
-Downloads and converts US Census TIGER data representing all boundaries in the United States.
+Downloads and converts Canada Statistics data representing all designated place boundaries in Canada.
 
 You define the processing logic, so you can put it into any DB you like.
-
-By default, this imports the boundaries of every state and incorporated place (~30K boundaries). Takes quite a bit of time depending on your internet speed.
 
 ## Install
 
