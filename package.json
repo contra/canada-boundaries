@@ -1,6 +1,6 @@
 {
   "name": "canada-boundaries",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Downloads and converts Statistics Canada census data representing all boundaries in Canada",
   "main": "dist/index.js",
   "keywords": [

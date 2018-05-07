@@ -69,7 +69,7 @@ exports.default = function (_ref) {
   var count = 0;
   (0, _shp2json2.default)(srcStream).pipe(_JSONStream2.default.parse('features.*')).pipe(_through2Asyncmap2.default.obj(function (feat, done) {
     ++count;
-    context.onBoundary(file.type, feat, done);
+    onBoundary(file.type, feat, done);
   })).once('error', function (err) {
     return onFinish(err);
   }).once('finish', function () {
