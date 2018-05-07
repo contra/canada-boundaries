@@ -24,11 +24,11 @@ export default ({ onBoundary, onFinish }) => {
     .pipe(JSONStream.parse('features.*'))
     .pipe(map.obj((feat, done) => {
       ++count
-      onBoundary(file.type, feat, done)
+      onBoundary(feat, done)
     }))
     .once('error', (err) => onFinish(err))
     .once('finish', () => {
-      debug(`  -- ${chalk.cyan(`Parsed ${file.path} and inserted ${count} boundaries`)}`)
+      debug(`  -- ${chalk.cyan(`Parsed and inserted ${count} boundaries`)}`)
       onFinish()
     })
 }

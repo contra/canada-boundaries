@@ -19,7 +19,7 @@ import census from 'canada-boundaries'
 
 census({
   // this function is called every time a record is parsed
-  onBoundary: (objectType, doc, cb) => {
+  onBoundary: (doc, cb) => {
     cb() // make sure to call the cb
   },
 
