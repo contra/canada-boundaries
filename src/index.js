@@ -12,7 +12,7 @@ import once from 'once'
 import _debug from 'debug'
 const debug = _debug('canada-census')
 
-const filePath = 'http://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/files-fichiers/gdpl000b11a_e.zip'
+const filePath = 'http://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/files-fichiers/gpc_000b11a_e.zip'
 
 export default ({ onBoundary, onFinish }) => {
   if (!onBoundary) throw new Error('Missing onBoundary!')

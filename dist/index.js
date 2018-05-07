@@ -56,7 +56,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var debug = (0, _debug3.default)('canada-census');
 
-var filePath = 'http://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/files-fichiers/gdpl000b11a_e.zip';
+var filePath = 'http://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/files-fichiers/gpc_000b11a_e.zip';
 
 exports.default = function (_ref) {
   var onBoundary = _ref.onBoundary,
